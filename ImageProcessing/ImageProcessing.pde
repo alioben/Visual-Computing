@@ -46,7 +46,7 @@ void settings() {
 }
 
 void setup() {
-  board = loadImage("data/board1.jpg");
+  board = loadImage("data/board4.jpg");
   MAX_AREA = board.width*board.height*200;
   MIN_AREA = 15;
   graph = new QuadGraph();
@@ -99,7 +99,6 @@ void draw() {
       break;
     }
   }
-
   noLoop();
 }
 
